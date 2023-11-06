@@ -17,7 +17,7 @@ Feature: Users should be able to login
     Then I clear email field
     Then I fill “Email” field with “random email” value
     Then I fill “Şifre” field with “12345” value
-    Then I click eye icon and verify password is displayed.  — getAttribute(‘type’)
+    Then I click eye icon and verify password is displayed
     Then I fill “Cep Telefonu” field with “5465551515” value
     When I click to see “Üyelik sözleşmesi”
     Then I close the popup
